@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 4;
+    margin: 0;
+    padding: 1px;
+}
+
+header {
+    background: #33333371;
+    color: #ffffff05;
+    padding: 1px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: red; /* Pseudo-class effect for hover */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.vertical-nav {
+    width: 200px; /* Set width for vertical navigation */
+    background: #f4f4f4;
+    padding: 15px;
+    margin-right: 20px; /* Space between vertical nav and content */
+}
+
+.vertical-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vertical-nav li {
+    margin-bottom: 10px; /* Space between vertical links */
+}
+
+.vertical-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.vertical-nav a:hover {
+    color: magenta; /* Change color on hover for vertical nav links */
+}
+
+.content {
+    flex: 1; /* Allow content to take remaining space */
+}
+
+.content h1 {
+    margin-top: 0; /* Remove top margin for the heading */
+}
+
+.content p {
+    padding: 10px; /* Add padding to text for better spacing */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    position: relative; /* Position footer relative */
+    bottom: 0;
+    width: 100%;
+}
